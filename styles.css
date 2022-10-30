@@ -1,0 +1,11 @@
+body {
+  background: whitesmoke;
+}
+.avatar{
+  width: 250px;
+  border: 5px solid black ;
+}
+.initialinf{
+  display: flex;
+  border: 3px dotted red;
+}
