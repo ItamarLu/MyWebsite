@@ -1,11 +1,50 @@
 body {
-  background: whitesmoke;
+  background: rgb(100, 97, 100);
 }
 .avatar{
   width: 250px;
-  border: 5px solid black ;
+  border: 2px solid lightgray;
+  border-radius: 360px;
+  margin-right: 10px;
 }
 .initialinf{
   display: flex;
-  border: 3px dotted red;
+  margin: 10px;
+  justify-content: space-around;
+  width: 750px;
+  border: 3px solid red;
+  padding: 20px;
+  background: lightgrey;
+  border-radius: 10px;
+}
+.initialtext{
+  text-align: center;
+  margin-left: 10px;
+  width: 450px;
+  padding-top: 20px;
+}
+.aboutme{
+  width: 790px;
+  border:3px solid lightseagreen;
+  border-radius: 10px;
+  margin: 10px;
+  background: lightblue;
+  text-align: center;
+}
+.contacts{
+  text-align: center;
+  width: 790px;
+  border: 3px solid lightgreen;
+  background: lightgoldenrodyellow;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.sites{
+  display: flex;
+  justify-content: space-around;
+}
+.icons{
+  width: 50px;
+  height: 50px;
 }
