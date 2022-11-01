@@ -3,16 +3,16 @@ body {
 }
 .avatar{
   width: 250px;
-  border: 2px solid lightgray;
+  border: 2px solid lightslategrey;
   border-radius: 360px;
   margin-right: 10px;
 }
 .initialinf{
   display: flex;
-  margin: 10px;
+  margin: 10px auto;
   justify-content: space-around;
   width: 750px;
-  border: 3px solid red;
+  border: 3px solid lightslategrey;
   padding: 20px;
   background: lightgrey;
   border-radius: 10px;
@@ -21,22 +21,22 @@ body {
   text-align: center;
   margin-left: 10px;
   width: 450px;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 .aboutme{
   width: 790px;
-  border:3px solid lightseagreen;
+  border:3px solid lightslategrey;
   border-radius: 10px;
-  margin: 10px;
-  background: lightblue;
+  margin: 10px auto;
+  background: lightgrey;
   text-align: center;
 }
 .contacts{
   text-align: center;
   width: 790px;
-  border: 3px solid lightgreen;
-  background: lightgoldenrodyellow;
-  margin: 10px;
+  border: 3px solid lightslategrey;
+  background: lightgrey;
+  margin: 10px auto;
   border-radius: 10px;
   padding-bottom: 20px;
 }
@@ -45,9 +45,21 @@ body {
   justify-content: space-around;
 }
 .icons{
+  border: 2px solid lightgrey;
   width: 50px;
   height: 50px;
 }
 .email{
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 74px;
   display: flex;
+}
+.emailtext{
+  padding-left: 10px;
+}
+.icons:hover{
+  border: 2px solid red;
+  border-radius: 360px;
 }
