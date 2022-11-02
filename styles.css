@@ -1,5 +1,6 @@
 body {
-  background: rgb(100, 97, 100);
+  background-image: url("images/space.jpg");
+  background-size: cover;
 }
 .avatar{
   width: 250px;
@@ -16,6 +17,7 @@ body {
   padding: 20px;
   background: lightgrey;
   border-radius: 10px;
+  font-family: expletus;
 }
 .initialtext{
   text-align: center;
@@ -24,6 +26,7 @@ body {
   padding-top: 25px;
 }
 .aboutme{
+  font-family: expletus;
   width: 790px;
   border:3px solid lightslategrey;
   border-radius: 10px;
@@ -32,6 +35,7 @@ body {
   text-align: center;
 }
 .contacts{
+  font-family: expletus;
   text-align: center;
   width: 790px;
   border: 3px solid lightslategrey;
@@ -62,4 +66,8 @@ body {
 .icons:hover{
   border: 2px solid red;
   border-radius: 360px;
+}
+@font-face{
+  font-family: Expletus;
+  src: url(fonts/ExpletusSans-Regular.ttf);
 }
