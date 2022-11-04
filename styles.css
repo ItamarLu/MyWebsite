@@ -3,35 +3,34 @@ body {
   animation-name: background-anim;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+  font-family: expletus;
 }
 .avatar{
   width: 250px;
   border: 3px solid rgb(59, 5, 5);
-  border-radius: 360px;
-  margin-right:10px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .initialinf{
   display: flex;
+  width: 790px;
+  align-items: center;
+  justify-content: space-between;
   margin: 10px auto;
-  justify-content: space-around;
-  width: 750px;
   border: 3px solid lightslategrey;
   padding: 20px;
   background: lightgrey;
   border-radius: 10px;
-  font-family: expletus;
 }
 .initialtext{
-  text-align: center;
-  margin-left: 10px;
-  width: 450px;
-  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #name{
   border-bottom: 3px solid rgb(59, 5, 5);
 }
 .aboutme{
-  font-family: expletus;
   width: 790px;
   border:3px solid lightslategrey;
   border-radius: 10px;
@@ -40,7 +39,6 @@ body {
   text-align: center;
 }
 .contacts{
-  font-family: expletus;
   text-align: center;
   width: 790px;
   border: 3px solid lightslategrey;
@@ -52,6 +50,7 @@ body {
 .sites{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .icons{
   border: 2px solid lightgrey;
